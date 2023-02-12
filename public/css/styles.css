@@ -1,0 +1,235 @@
+* {margin: 0;
+padding: 0;
+box-sizing: border-box}
+
+body {background-color: #ebebeb;
+font-family: 'Roboto', sans-serif;
+font-size: 12px}
+
+h4 {font-size: 24px}
+
+.precios {font-size: 18p}
+
+.descuento {font-size: 16px; color: green}
+
+.description {font-size: 16px; color: #ebebeb;}
+
+
+div {font-size: 130%}
+
+.footerok {font-size: 180%}
+
+.compracuotas {font-size: 140%}
+
+
+footer i.fa-solid, footer i.fa-regular{color: blue; }
+
+footer {text-align: center; background-color: #ebebeb;
+color: #666}
+
+.banner img{width: 100%;
+object-fit: cover}
+
+header {background-color: #EAC926}
+
+section {border-top: 1px solid; border-color: #ebebeb}
+
+div.burger-menu {
+text-align: center}
+  
+div.burger-menu i {
+background-color: #0044aa;
+border-radius: 5px;
+color: #fff;
+font-size: 20px;
+height: 40px;
+margin: 10px 0px 20px 0px;
+padding: 10px;
+width: 40px}
+
+article div.main-article {
+border-top: solid 1px #ebebeb;
+padding: 15px;
+position: relative}
+  
+.price {
+font-size: 18px}
+  
+.discount,
+.description {
+font-size: 16px;
+font-weight: normal}
+  
+h3,
+.description {
+color: #666}
+
+h4 {color: black;}
+
+main {
+width: 90%;
+margin: auto}
+  
+main section article {
+background-color: #fff;
+margin-bottom: 16px;
+box-shadow: 0px 0px 10px rgb(100, 100, 100)}
+  
+main section article img {
+width: 100%}
+  
+main section article i,
+.discount {
+color: #39b54a}
+  
+article .main-article .fa-truck {
+display: block;
+font-size: 16px;
+padding: 5px;
+width: 30px;
+height: 30px;
+border: 1px solid #39b54a;
+background-color: #fff;
+border-radius: 50%;
+position: absolute;
+right: 20px;
+top: -15px}
+  
+@media (min-width: 481px) {
+main section article .description {
+display: block}
+  
+main section article {
+box-shadow: 0px 0px 10px rgb(100, 100, 100)}
+  
+main section div.products {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+gap: 10px;
+justify-content: space-between}
+  
+main section div.products article {
+flex-basis: 48%}
+  
+.price,
+.discount {
+width: 50%;
+}
+}
+  
+@media (min-width: 769px) {
+main section div.products article {
+flex-basis: 24%;
+}
+}
+
+.loginFrm {
+margin : 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+width : 100%
+}
+
+.form {
+background-color: white;
+width: 400px;
+border-radius: 8px;
+padding: 20px 40px;
+box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+}
+    
+.title {
+font-size: 30px;
+margin-bottom: 30px;
+}
+
+.inputContainer {
+position: relative;
+height: 45px;
+width: 90%;
+margin-bottom: 18px;
+}
+
+.input {
+position: absolute;
+top: 0px;
+left: 0px;
+height: 100%;
+width: 100%;
+border: 1px solid #DADCE0;
+border-radius: 7px;
+font-size: 16px;
+padding: 0 20px;
+outline: none;
+background: none;
+z-index: 1;
+}
+    
+::placeholder {
+color: transparent;
+}
+
+.label {
+position: absolute;
+top: 13px;
+left: 6px;
+padding: 0 4px;
+background-color: white;
+color: #DADCE0;
+font-size: 16px;
+transition: 0.5s;
+z-index: 0;
+}
+
+.submitBtn {
+display: block;
+margin-left: auto;
+padding: 10px 30px;
+border: none;
+background-color: #DADCE0;
+color: blue;
+border-radius: 6px;
+cursor: pointer;
+font-size: 16px;
+margin-top: 30px;
+margin-right : auto
+}
+
+.submitBtn:hover {
+transform: translateY(-2px)
+}
+
+.input:focus + .label {
+top: -7px;
+left: 3px;
+z-index: 10;
+font-size: 14px;
+font-weight: 600;
+color: black;
+}
+
+.input:focus {
+border: 2px solid black;
+}
+
+.input:not(:placeholder-shown)+ .label {
+top: -7px;
+left: 3px;
+z-index: 10;
+font-size: 14px;
+font-weight: 600;
+}
+    
+.registerFrm {
+    margin : 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width : 100%
+    }
+
+    
